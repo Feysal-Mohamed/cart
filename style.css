@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box-container{
+    /* width: 100%; */
+    height: 100vh;
+    display: flex;
+    padding: 0 20px 0 20px;
+
+}
+
+.box{
+    margin-top: 20px;
+    display: flex;
+}
+
+
+.box1{
+    margin-left: 20px;
+}
+.pict1{
+    padding: 20px;
+    margin-top: 27px;
+    width: 110px;
+}
+#pict1{
+    border: 2px solid orangered;
+    border-radius: 3px ;
+
+
+}
+.pictPP{
+    padding-top: 20px;
+    color: gray;
+}
+i{
+    padding: 10px 0 10px 0;
+    color: orangered;
+}
+.box2{
+    margin-left: 20px;
+}
+.box2 img{
+    margin-top: 20px;
+    /* margin-left: ; */
+
+    padding: 60px 0 60px 0;
+    /* background-color: rgb(11, 143, 143); */
+}
+.box-2{
+    margin-left: 20px;
+    margin-top: 37px;
+}
+.box-11 ul{
+    padding-left: 13px;
+    list-style: disc;
+
+}
+.box-22{
+    display: flex;
+}
+.span1{
+    margin: 30px 40px 20px 30px ;
+    padding: 6px;
+    color: gray;
+    /* border: 2px solid black; */
+}
+.box-22 li{
+    margin-top: 10px;
+    margin-left: -40px;
+    padding: 10px;
+}
+.lastbuton{
+    margin-top: 10px;
+display: flex;
+gap: 20px;
+}
+button{
+    width: 95px;
+    height: 30px;
+    border: 1px solid orangered;
+}
+
+
+@media (max-width: 400px){
+    body{
+        overflow-x: hidden;
+    }
+    .box-container{
+    /* width: 100%; */
+    height: 100vh;
+    display: block;
+    padding: 0 20px 0 20px;
+
+}
+
+.box{
+    margin-top: 20px;
+    display: block;
+}
+.box1 ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.box1 ul img
+{
+   border: 1px orangered solid;
+   width: 100px;
+}
+.box2 img{
+    width: 330px;
+    margin-left: -20px;
+    margin-bottom: 0;
+}
+
+.box-22{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-22 #lastcm{
+    display: flex;
+}
+.lastbuton{
+    margin-top: 10px;
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+.buton2{
+    margin-bottom: 50px;
+}
+
+}
+
